@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+
+ .list-unstyled{
+  font-family: 'Kaisei Opti', serif;
+  font-family: 'Merriweather', serif;
+  padding: 40px;
+  margin-left: 50px;
+
+ }
+
+  h1 {
+  margin-left: 50px;
+  margin-top: 40px;
+  background-color: antiquewhite;
+ }
+
+ .AddTask{
+  padding: 20px;
+ }
+
+ .fa-solid {
+  padding-left: 10px;
+ }

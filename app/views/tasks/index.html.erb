@@ -1,0 +1,11 @@
+<div class = "container-sm">
+<h1>Tasks</h1>
+
+
+<ul class="list-unstyled">
+  <% @tasks.each do |task| %>
+      <li><%= link_to task.title, task_path(task) %> <i class="fa-solid fa-square-check"></i></li>
+  <% end %>
+  <button type="button" class="btn btn-primary"><%= link_to "Add a task +", new_task_path %> </button>
+</ul>
+</div>
